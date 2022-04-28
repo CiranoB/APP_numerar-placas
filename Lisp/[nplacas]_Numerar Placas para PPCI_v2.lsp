@@ -4,7 +4,7 @@
 )
 (setvar "blipmode" 0 )
 (setvar "cmdecho" 0 )
-(setq H (getdist "\nAltura da letra:"))
+(setq H (getdist "\nAltura da Letra:"))
 (setq NI (getint "\nNumero inicial <1>: "))
 (if (= NI nil)(setq NI 1))
 (setq P1 (getpoint "\nPonto de insercao:"))   
